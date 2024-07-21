@@ -1,0 +1,15 @@
+.x{
+    background: var(--section-bg)!important;
+}
+
+
+.x i{
+    color: var(--main-color);
+}
+.x{
+    flex-direction: row !important;
+    padding: 10px !important; 
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}

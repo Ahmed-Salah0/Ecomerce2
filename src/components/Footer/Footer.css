@@ -1,0 +1,101 @@
+.foo{
+    background-color: #3d464d;
+
+}
+footer{
+    background-color: #3d464d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+footer div{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+width: 22%;
+}
+footer i{
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+footer .left-footer h3{
+margin-top: 30px;
+}
+footer .right-footer h3{
+    margin-top: 30px;
+
+}
+.right-footer .input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 15px;
+
+
+}
+.right-footer p{
+    margin-bottom: 5px;
+}
+.right-footer input{
+outline: none;
+padding: 5px;
+}
+.bttn{
+    background-color: var(--main-color)!important;
+    height: 20px!important;
+    margin-right: 10px;
+}
+
+.icon{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 10px;
+}
+.icon i{
+    font-size: 30px;
+    background-color: var(--main-color);
+    padding: 5px;
+    color: #3d464d;
+}
+.foo hr{
+    margin: auto;
+    margin-top: 50px;
+   width:85%;
+    color: #e9e3e3;
+    height: 2px;
+}
+.f-left h3 a {
+    color: var(--main-color);
+}
+.third-footer i {
+margin: auto !important;
+padding: 10px 60px;
+}
+
+
+@media (max-width:768px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .f-down{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    footer div {
+        margin: 10px;
+    }
+    .f-down{
+        margin: 10px;
+    }
+    
+}

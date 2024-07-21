@@ -1,0 +1,140 @@
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+header .header-left{
+width: 65%;
+}
+header.header-right{
+width: 30%;
+}
+.header-left-men{
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 50vh;
+background-image: url(../../../images/carousel-1.jpg) ;
+
+
+    background-position: center;
+    background-size: cover;
+
+}
+.header-left-wemen{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    gap: 10px;
+    background-position: center;
+    background-size: cover;
+background-image: url(../../../images/carousel-2.jpg);
+}
+.header-left-Kids{
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 50vh;
+    background-image: url(../../../images/carousel-3.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.btn{
+    background-color: transparent !important;
+    color: #fff !important;
+    font-style: 20px !important;
+    width: 120px !important;
+    height: 50px !important;
+    transition: .5s;
+}
+.btn:hover{
+background-color: #fff!important;
+color: #000!important;
+}
+.header-right-up{
+    display: flex;
+    flex-direction: column;
+    justify-self:center;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    background-image: url(../../../images/offer-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24vh;
+    width: 350px;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+.header-right-Down{
+    display: flex;
+    flex-direction: column;
+    justify-self:center;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    background-image: url(../../../images/offer-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 24vh;
+    width: 100%;
+    transition: .5s;
+
+}
+.header-right-Down:hover{
+    scale: 1.1;
+    cursor: pointer;
+    
+}
+.header-right-up:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.header-right-Down .bt{
+    width: 35%;
+    height: 55px;
+    background-color: var(--main-color);
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    transition: .5s;
+}
+.header-right-Down button:hover {
+scale: 1.1;
+}
+.header-right-up button:hover {
+    scale: 1.1;
+    }
+.header-right-up button{
+    width: 35%;
+    height: 55px;
+    background-color: var(--main-color);
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    transition: .5s;
+
+}
+@media (max-width:768px){
+    header{
+        flex-direction: column;
+    }
+    .header-left{
+        width: 100% !important;
+    }
+    .header-left p{
+        display: none;
+    }
+    .header-right , .header-right-up{
+        width: 100%!important;
+    }
+}

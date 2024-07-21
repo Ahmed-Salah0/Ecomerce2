@@ -1,0 +1,28 @@
+.slider2{
+    padding: 50px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100% !important;
+}
+.slider2{
+    padding: 50px;
+    width: max-content;
+
+}
+
+.slider2 img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+@media (max-width:768px) {
+.slider2{
+    display: none !important;
+}
+
+
+}
+

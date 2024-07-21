@@ -1,0 +1,31 @@
+
+.navbar{
+    background-color: #3d464d;
+    color: #f5eada !important; 
+    border-radius: 0 0 8px 8px;
+}
+nav a{
+    color: #f5eada !important;
+    font-size: 20px !important;
+    transition: .5 s;
+}
+nav a:hover{
+color: var(--main-color) !important;
+}
+nav span{
+    color: var(--main-color) !important;
+}
+.dropdown-menu{
+    background-color: var(--main-color) !important;
+    color: #3d464d !important;
+}
+.dropdown-menu a{
+    color: #fff !important;
+}
+.dropdown-menu a:hover{
+    color: #3d464d !important;
+    border-radius: 7px;
+}
+.ic{
+    color: var(--main-color);
+}
